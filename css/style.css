@@ -1,0 +1,87 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.main-content {
+    background: rgb(0, 18, 83);
+    background: radial-gradient(circle, rgba(0, 18, 83, 1) 1%, rgba(0, 103, 103, 0.9836309523809523) 52%, rgba(0, 18, 83, 1) 98%);
+    background-attachment: fixed;
+}
+
+.form-container {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.input-custom {
+    border: 1px solid whitesmoke;
+    background-color: lightskyblue;
+    color: rgb(0, 18, 83);
+}
+
+.input-custom::placeholder {
+    color: rgb(0, 18, 83);
+}
+
+.input-custom:focus {
+    color: rgb(0, 18, 83);
+    background-color: lightskyblue;
+    box-shadow: none;
+}
+
+.select-custom {
+    border: 1px solid whitesmoke;
+    background-color: lightskyblue;
+    color: rgb(0, 18, 83);
+}
+
+.select-custom::placeholder {
+    color: rgb(0, 18, 83);
+}
+
+.select-custom:focus {
+    color: rgb(0, 18, 83);
+    background-color: lightskyblue;
+    box-shadow: none;
+}
+
+.textArea-custom {
+    border: 1px solid whitesmoke;
+    background-color: lightskyblue;
+    color: rgb(0, 18, 83);
+}
+
+.textArea-custom::placeholder {
+    color: rgb(0, 18, 83);
+}
+
+.textArea-custom:focus {
+    color: rgb(0, 18, 83);
+    background-color: lightskyblue;
+    box-shadow: none;
+}
+
+.submit-btn {
+    background-color: lightskyblue;
+    border: 1px solid lightskyblue;
+    color: rgb(0, 18, 83);
+    padding: 8px 10px;
+}
+
+.submit-btn:hover {
+    background-color: darkcyan;
+    border: 1px solid darkcyan;
+    color: white;
+}
+
+.biodata {
+    background-color: rgba(0, 128, 128, 0.5);
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.data-group{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
